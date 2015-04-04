@@ -51,4 +51,4 @@ while ($delayed_time -lt $total_delay_time) {
 
 # Put the computer to sleep
 Write-Host "Self destructing now!"
-C:\Users\Joe\Desktop\ps-tools\psshutdown -d -t 0
+ps-tools\psshutdown -d -t 0
